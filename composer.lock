@@ -1,0 +1,238 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ac68a54e201fb472289216119e3b09b5",
+    "packages": [
+        {
+            "name": "robinthehood/debug",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinTheHood/Debug.git",
+                "reference": "988074f06d737233a3b39bd7cc5627c8ef47e951"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinTheHood/Debug/zipball/988074f06d737233a3b39bd7cc5627c8ef47e951",
+                "reference": "988074f06d737233a3b39bd7cc5627c8ef47e951",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "robinthehood/terminal": "^0.1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobinTheHood\\Debug\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Wieschendorf",
+                    "email": "mail@robinwieschendorf.de",
+                    "homepage": "http://robinwieschendorf.de",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "Outputs strings to the console or as html at the browser.",
+            "keywords": [
+                "console",
+                "terminal"
+            ],
+            "time": "2018-01-17T12:43:23+00:00"
+        },
+        {
+            "name": "robinthehood/exception-monitor",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinTheHood/ExceptionMonitor.git",
+                "reference": "6ce89c11ba24c4c3042617882af362069e9a1298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinTheHood/ExceptionMonitor/zipball/6ce89c11ba24c4c3042617882af362069e9a1298",
+                "reference": "6ce89c11ba24c4c3042617882af362069e9a1298",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "robinthehood/syntax-highlighter": "^0.1.0",
+                "robinthehood/terminal": "^0.1.1",
+                "robinthehood/tokenizer": "^0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobinTheHood\\ExceptionMonitor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Wieschendorf",
+                    "email": "mail@robinwieschendorf.de",
+                    "homepage": "http://robinwieschendorf.de",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "ExceptionMonitor gives you nice looking PHP Error Messages. If you wish more features feel free to contribute.",
+            "keywords": [
+                "Errorhandling",
+                "error",
+                "nice looking",
+                "php"
+            ],
+            "time": "2019-01-22T10:23:57+00:00"
+        },
+        {
+            "name": "robinthehood/syntax-highlighter",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinTheHood/SyntaxHighlighter.git",
+                "reference": "147e5606d7758d3e422b002debfcea9c074f9f18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinTheHood/SyntaxHighlighter/zipball/147e5606d7758d3e422b002debfcea9c074f9f18",
+                "reference": "147e5606d7758d3e422b002debfcea9c074f9f18",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0",
+                "robinthehood/terminal": "^0.1.1",
+                "robinthehood/tokenizer": "^0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobinTheHood\\SyntaxHighlighter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Wieschendorf",
+                    "email": "mail@robinwieschendorf.de",
+                    "homepage": "http://robinwieschendorf.de",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "With SyntaxHighlighter you can easily output syntax highlighted code as HTML.",
+            "keywords": [
+                "highlighting",
+                "html",
+                "php",
+                "syntax"
+            ],
+            "time": "2018-01-17T12:58:27+00:00"
+        },
+        {
+            "name": "robinthehood/terminal",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinTheHood/Terminal.git",
+                "reference": "04928aa6f26ca79409d8e78beab7c8b7c8374cdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinTheHood/Terminal/zipball/04928aa6f26ca79409d8e78beab7c8b7c8374cdd",
+                "reference": "04928aa6f26ca79409d8e78beab7c8b7c8374cdd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobinTheHood\\Terminal\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Wieschendorf",
+                    "email": "mail@robinwieschendorf.de",
+                    "homepage": "http://robinwieschendorf.de",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "With Terminal you can easily output colored text on the console with php.",
+            "keywords": [
+                "color",
+                "escape sequences",
+                "terminal"
+            ],
+            "time": "2018-01-17T13:01:55+00:00"
+        },
+        {
+            "name": "robinthehood/tokenizer",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobinTheHood/Tokenizer.git",
+                "reference": "0015a955ed48e769335b229a73faa610935f1ae8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobinTheHood/Tokenizer/zipball/0015a955ed48e769335b229a73faa610935f1ae8",
+                "reference": "0015a955ed48e769335b229a73faa610935f1ae8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobinTheHood\\Tokenizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Wieschendorf",
+                    "email": "mail@robinwieschendorf.de",
+                    "homepage": "http://robinwieschendorf.de",
+                    "role": "Project Founder"
+                }
+            ],
+            "description": "With Tokenizer you can easily convert a string to a stream or array of tokens.",
+            "keywords": [
+                "lexer",
+                "parser",
+                "token",
+                "tokenizer"
+            ],
+            "time": "2018-08-03T10:13:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
