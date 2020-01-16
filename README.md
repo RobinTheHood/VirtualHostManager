@@ -23,6 +23,29 @@ composer install
 
 Next Setup MAMP. The root-directory of the Apache Web-Server have to point to the VirtualHostManangers root.
 
+To use multiple vhosts, you have to uncomment the following line
+*/Applications/MAMP/conf/apache/httpd.conf*
+
+```apacheconf
+Include /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
+```
+
+Now you have to add this entry in
+*/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf*
+
+```apacheconf
+<VirtualHost *:80>
+    ServerAdmin webmaster@virtualhostmanager.local
+    DocumentRoot "path_to_VirtualHostMananger"
+    ServerName localhost
+    ErrorLog "logs/localhost.com-error_log"
+    CustomLog "logs/localhost.com-access_log" common
+    <Directory />
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+```
+
 Now you are ready. You can try it. Open localhost in your browser.
 
 ## Contributing
