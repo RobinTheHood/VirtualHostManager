@@ -13,7 +13,14 @@
             <h1 class="py-4">Virtual Host Manager</h1>
 
             <a class="btn btn-outline-secondary" href="/" role="button">Back to Overview</a>
-            <div class="py-4">
+            <div class="py-4"></div>
+
+            <div class="alert alert-primary" role="alert">
+                sudo -- sh -c "cat <?php global $rootDir; echo $rootDir;?>/hosts_temp.txt > /etc/hosts"</br>
+                sudo -- sh -c "/Applications/MAMP/Library/bin/apachectl -k graceful"
+            </div>
+
+            <div class="py-2"></div>
 
             <form action="" method="post">
                 <div class="form-group">

@@ -26,5 +26,7 @@ function debugDie($value)
     die();
 }
 
+$rootDir = __DIR__;
+
 $controller = new Controller();
 $controller->invoke();
