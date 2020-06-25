@@ -18,8 +18,9 @@ class HostConfigManager extends ConfigManager
 
     public function writeConfig($configStr, $password = '')
     {
+        $configFilePath = getcwd() . '/' . $this->configTempFilePath;
         file_put_contents($this->configTempFilePath, $configStr);
-        $cmd = 'cat ' . $this->configTempFilePath . ' > ' . $this->configFilePath;
+        $cmd = 'cat ' . $configFilePath . ' > ' . $this->configFilePath;
         Shell::sudo($cmd, $password);
     }
 }
