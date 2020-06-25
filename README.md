@@ -48,6 +48,13 @@ Now you have to add this entry in
 
 Now you are ready. You can try it. Open localhost in your browser.
 
+### Notice
+If you are using macOS 10.15 you have to execute:
+```
+sudo /Applications/MAMP/bin/stopApache.sh
+sudo /Applications/MAMP/bin/startApache.sh
+```
+
 ## Contributing
 If you wish more features feel free to contribute. In order to contribute, you just have to fork this repository.
 
