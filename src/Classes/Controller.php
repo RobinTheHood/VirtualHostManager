@@ -44,6 +44,10 @@ class Controller
         $settingsLoader = new SettingsLoader();
         $virtualHosts = $settingsLoader->loadVirtualHosts();
 
+        usort($virtualHosts, function($virtualHostA, $virtualHostB) {
+            return $virtualHostA->localHost <=> $virtualHostB->localHost;
+        });
+
         include __DIR__ . '/../templates/Index.tmpl.php';
     }
 
