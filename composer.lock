@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac68a54e201fb472289216119e3b09b5",
+    "content-hash": "431b9beddcb90b48485721caa2661eed",
     "packages": [
         {
             "name": "robinthehood/debug",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinTheHood/Debug.git",
-                "reference": "988074f06d737233a3b39bd7cc5627c8ef47e951"
+                "reference": "fe7d9187425c83665c4ea815e1393482cda7e965"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinTheHood/Debug/zipball/988074f06d737233a3b39bd7cc5627c8ef47e951",
-                "reference": "988074f06d737233a3b39bd7cc5627c8ef47e951",
+                "url": "https://api.github.com/repos/RobinTheHood/Debug/zipball/fe7d9187425c83665c4ea815e1393482cda7e965",
+                "reference": "fe7d9187425c83665c4ea815e1393482cda7e965",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
+                "php": "^5.6 || ^7.0 || ^8.0",
                 "robinthehood/terminal": "^0.1.1"
             },
             "type": "library",
@@ -47,24 +47,28 @@
                 "console",
                 "terminal"
             ],
-            "time": "2018-01-17T12:43:23+00:00"
+            "support": {
+                "issues": "https://github.com/RobinTheHood/Debug/issues",
+                "source": "https://github.com/RobinTheHood/Debug/tree/0.1.4"
+            },
+            "time": "2022-04-19T13:00:07+00:00"
         },
         {
             "name": "robinthehood/exception-monitor",
-            "version": "0.1.7",
+            "version": "0.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinTheHood/ExceptionMonitor.git",
-                "reference": "6ce89c11ba24c4c3042617882af362069e9a1298"
+                "reference": "a2b4f240bbf66f5203751d2cde9a3fa407539906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinTheHood/ExceptionMonitor/zipball/6ce89c11ba24c4c3042617882af362069e9a1298",
-                "reference": "6ce89c11ba24c4c3042617882af362069e9a1298",
+                "url": "https://api.github.com/repos/RobinTheHood/ExceptionMonitor/zipball/a2b4f240bbf66f5203751d2cde9a3fa407539906",
+                "reference": "a2b4f240bbf66f5203751d2cde9a3fa407539906",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
+                "php": "^5.6 || ^7.0 || ^8.0",
                 "robinthehood/syntax-highlighter": "^0.1.0",
                 "robinthehood/terminal": "^0.1.1",
                 "robinthehood/tokenizer": "^0.1.0"
@@ -94,24 +98,28 @@
                 "nice looking",
                 "php"
             ],
-            "time": "2019-01-22T10:23:57+00:00"
+            "support": {
+                "issues": "https://github.com/RobinTheHood/ExceptionMonitor/issues",
+                "source": "https://github.com/RobinTheHood/ExceptionMonitor/tree/0.1.10"
+            },
+            "time": "2022-04-19T13:14:22+00:00"
         },
         {
             "name": "robinthehood/syntax-highlighter",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinTheHood/SyntaxHighlighter.git",
-                "reference": "147e5606d7758d3e422b002debfcea9c074f9f18"
+                "reference": "edd6060f42fbb8f4a4686b04fbede6623b3169a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinTheHood/SyntaxHighlighter/zipball/147e5606d7758d3e422b002debfcea9c074f9f18",
-                "reference": "147e5606d7758d3e422b002debfcea9c074f9f18",
+                "url": "https://api.github.com/repos/RobinTheHood/SyntaxHighlighter/zipball/edd6060f42fbb8f4a4686b04fbede6623b3169a3",
+                "reference": "edd6060f42fbb8f4a4686b04fbede6623b3169a3",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0",
+                "php": "^5.3.3 || ^7.0 || ^8.0",
                 "robinthehood/terminal": "^0.1.1",
                 "robinthehood/tokenizer": "^0.1.0"
             },
@@ -140,24 +148,28 @@
                 "php",
                 "syntax"
             ],
-            "time": "2018-01-17T12:58:27+00:00"
+            "support": {
+                "issues": "https://github.com/RobinTheHood/SyntaxHighlighter/issues",
+                "source": "https://github.com/RobinTheHood/SyntaxHighlighter/tree/0.1.2"
+            },
+            "time": "2022-04-19T13:21:17+00:00"
         },
         {
             "name": "robinthehood/terminal",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinTheHood/Terminal.git",
-                "reference": "04928aa6f26ca79409d8e78beab7c8b7c8374cdd"
+                "reference": "9675e89f12127f76f77c7d9510f2c5c763e3bba1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinTheHood/Terminal/zipball/04928aa6f26ca79409d8e78beab7c8b7c8374cdd",
-                "reference": "04928aa6f26ca79409d8e78beab7c8b7c8374cdd",
+                "url": "https://api.github.com/repos/RobinTheHood/Terminal/zipball/9675e89f12127f76f77c7d9510f2c5c763e3bba1",
+                "reference": "9675e89f12127f76f77c7d9510f2c5c763e3bba1",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0"
+                "php": "^5.6 || ^7.0 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -183,7 +195,11 @@
                 "escape sequences",
                 "terminal"
             ],
-            "time": "2018-01-17T13:01:55+00:00"
+            "support": {
+                "issues": "https://github.com/RobinTheHood/Terminal/issues",
+                "source": "https://github.com/RobinTheHood/Terminal/tree/0.1.4"
+            },
+            "time": "2022-04-19T13:32:53+00:00"
         },
         {
             "name": "robinthehood/tokenizer",
@@ -224,6 +240,10 @@
                 "token",
                 "tokenizer"
             ],
+            "support": {
+                "issues": "https://github.com/RobinTheHood/Tokenizer/issues",
+                "source": "https://github.com/RobinTheHood/Tokenizer/tree/master"
+            },
             "time": "2018-08-03T10:13:05+00:00"
         }
     ],
@@ -234,5 +254,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
